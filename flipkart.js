@@ -9,7 +9,7 @@ searchButton.addEventListener("click", () => {
     alert("Please enter a search term.");
   }
 });
-const slider = document.querySelector(".slider img");
+const slider = document.querySelector(".slider");
 const images = [
   "slider.png",
   "slider2.webp",

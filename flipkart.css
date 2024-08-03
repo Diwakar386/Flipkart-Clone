@@ -125,6 +125,7 @@ main {
   border-radius: 10px;
   text-align: center;
   transition: transform 0.2s;
+  width: 100%;
 }
 .card-item:hover {
   transform: scale(1.05);
