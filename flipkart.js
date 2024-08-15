@@ -9,20 +9,22 @@ searchButton.addEventListener("click", () => {
     alert("Please enter a search term.");
   }
 });
-const slider = document.querySelector(".slider");
+const sliderImage = document.querySelector(".slider-image");
 const images = [
-  "slider.png",
-  "slider2.webp",
-  "slider3.webp",
-  "slider4.webp",
-  "slider5.webp",
-  "slider6.webp",
-  "slider7.webp",
+  "store/slider.png",
+  "store/slider2.webp",
+  "store/slider3.webp",
+  "store/slider4.webp",
+  "store/slider5.webp",
+  "store/slider6.webp",
+  "store/slider7.webp",
 ];
 let currentIndex = 0;
+
 function changeImage() {
   currentIndex = (currentIndex + 1) % images.length;
-  slider.src = images[currentIndex];
+  sliderImage.src = images[currentIndex];
 }
 
 setInterval(changeImage, 3000);
+
